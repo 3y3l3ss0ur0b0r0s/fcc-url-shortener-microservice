@@ -1,0 +1,44 @@
+body {
+  font-family: Consolas, sans-serif;
+  font-size: 14px;
+  color: #30530c;
+  background-color: #fff;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+main {
+  padding: 0;
+  margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #62863f;
+}
+
+form {
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type='text'] {
+  width: 220px;
+  text-align: center;
+}
