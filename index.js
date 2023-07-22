@@ -93,11 +93,11 @@ app.post("/api/shorturl", (req, res) => {
 // app.get method
 app.get("/api/shorturl/:urlNumber", async (req, res) => {
   ShortUrl.findOne({short_url: req.params.urlNumber})
-    .then((url)=>{
+    .then((url) => {
       console.log("URL found: " + url.original_url);
       res.redirect(url.original_url);
     })
-    .catch((err)=> {
+    .catch((err) => {
       console.log(err);
     });
 });
